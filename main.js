@@ -2,10 +2,6 @@ img = "";
 status = "";
 objects = [];
 
-function preload(){
-    img = loadImage("candidate2.jpg");
-}
-
 function setup(){
     canvas = createCanvas(380, 380);
     canvas.center();
